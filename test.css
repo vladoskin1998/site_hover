@@ -1,0 +1,457 @@
+	*{padding:0;margin:0;border:0;}
+    *,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+    :focus,:active{outline:none;}
+    a:focus,a:active{outline:none;}
+    nav,footer,header,aside{display:block;}
+    html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+    input,button,textarea{font-family:inherit;}
+    input::-ms-clear{display:none;}
+    button{cursor:pointer;}
+    button::-moz-focus-inner{padding:0;border:0;}
+    a,a:visited{text-decoration:none;}
+    a:hover{text-decoration:none;}
+    img{vertical-align:top;}
+    h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+    .wrap{
+       
+        min-height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+
+    .heder__body{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    .heder__nav{
+        display: flex;
+    }
+
+    .heder__link{
+        margin-left: 70px;
+        font-size: 14px;
+        position: relative;
+        
+    }
+    .heder__link a{
+       color: black;
+    }
+    
+
+    .rizor__body{
+        display: flex;
+        height: 600px;
+        margin-bottom: 300px;
+        align-items: center;
+         position: relative;
+        z-index: 2;
+    }
+
+    .rizor__titleVideo{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .rizor__video{
+        display: flex;
+        margin-bottom: 35px;   
+    }
+
+    .rizor__linePlay{
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    
+    .rizor__textPlay{
+        transform: rotate(270deg);
+    }
+
+    .rizor__imgLine img{
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+
+    .rizor__button img{
+        margin-top: -25px;
+        margin-left: -20px;
+    }
+
+    .rizor__bigsizetext{
+        display: flex;
+        font-size: 85px;
+        letter-spacing: 22px;
+        font-weight: bold;
+    }
+
+    .rizor__littlesizetext{
+        font-size: 20px;
+    }
+
+    .max__width{
+        top:0;
+        left: -350px;
+        width: 1900px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        z-index: -1;
+    }
+    
+    .rizor__saw{
+        z-index: -1;
+    }
+    
+    .rizor__hover{
+        padding-top: 30px;
+    }
+
+    .advantage_body{
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        padding-left: 400px;
+    }
+
+    .advantage_bigTitle{
+        top: 100px;
+        transform: rotate(270deg);
+        padding-top: 200px;
+        text-align: right;
+        font-size: 180px;
+        letter-spacing: 25px;
+        color: #f6f3ee;
+        font-weight: bolder;
+    }
+
+    .advantage__row{
+        display: flex;  
+        height: 1000px;
+    }
+
+    .advantage__design{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        justify-content: center;
+    }
+
+
+    .advantage__mainTitle{
+        font-size: 20px;
+        padding-bottom: 60px;
+        color: #3a30f8;
+    }
+
+    .general__title{
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        padding-bottom: 40px;
+    } 
+    
+    .general__text{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .general__list{
+        list-style-image: url(/images/tire.png);
+        padding-left: 40px;
+        font-size: 18px;
+    }
+
+    .general__list li{
+        padding: 10px 0 10px 0 ;
+    }
+
+    .advantage__color{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .advantage__colorLine{
+        padding-top: 20px;
+    }
+
+    .advantage__colorRow{
+        position: relative;
+    }
+
+    .advantage__colorLine{
+        position: absolute;
+        top: 0;
+        left: 70px;
+    }
+
+    .advantage__colorColumn{
+        padding-left: 110px;
+    }
+
+    .advantage__colorList{
+        display: flex;
+        padding: 20px 0 20px 0;
+    }
+
+
+    .advantage__colorItem{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 15px;
+        position: relative;
+        z-index: 40;
+    }
+  
+    #advantage__colorGreen{
+        background-color: #f9f217;
+    }
+
+    #advantage__colorBlue{
+        background-color: #1fc1cd;
+    }
+
+    #advantage__colorRed{
+        background-color: #fa3c0e;
+    }
+
+    #advantage__colorGrey{
+        background-color: #f6f1e6;
+    }
+
+    #advantage__colorBlack{
+        background-color: #120e08;
+    }
+
+    .mode__body{
+        position: relative;
+        height: 1050px;
+        display: flex;
+        align-items: center;
+    }
+
+    .mode__row{
+        display: flex;
+       
+    }
+   
+    .mode__video{
+        position: absolute;
+        z-index: -1;
+        top: 100px;
+        left: 400px;
+    }
+
+    .mode__titleLine{
+        display: flex;
+    }
+
+    .mode__rowItem{
+        padding-top: 60px;
+        display: flex;
+    }
+    
+    .mode__quantit{
+        padding-left: 50px;
+    }
+
+    .mode__number{
+        font-size: 52px;
+        color: #3a30f8;
+    }
+
+    .mode__speedText{
+        padding-top: 20px; 
+        font-size: 16px;
+        color: #f1e59c;
+    }
+    
+    .mode__gorizontLine{
+        padding:  20px 0 20px 30px;
+    }
+
+    
+    .mode__itemLine{
+        width: 100px;
+        height: 2px;
+        background-color: #f1e59c;
+    }
+
+    .mode__lineColumn{
+        padding-top: 20px;
+    }
+
+    .mode__verticalLine{
+        height: 400px;
+        width: 2px;
+        background-color: #f1e59c;
+        position: relative;
+    }
+
+    .mode__circusLine{
+        position: absolute;
+        border-radius: 50%;
+        width: 4px;
+        height: 4px;
+        background-color: #f1e59c;
+        left: -1px;
+        bottom: 0;
+    }
+    
+    .mode__buttonText{
+        display: flex;
+        flex-direction: column;
+        transform: rotate(270deg);
+    }
+
+    .mode__textVideo{
+        color: #f1e59c;
+    }
+    
+    .mode__buttonPlay{
+        transform: rotate(-270deg);
+    }
+
+    .forwhom{
+        background-color: #876dde;
+        z-index: -2;
+    }
+    
+
+    .forwhom__body{
+        position: relative;
+        height: 900px;
+        display: flex;
+        align-items: center;
+    }
+
+    .forwhom__saw{
+        padding-top: 50px;
+        opacity: 5%;
+    }
+
+    .forWhome__row{
+        top: -50px;
+    }
+
+    .forwhom__text{
+        width: 300px;
+        padding-bottom: 100px;
+    }
+
+    .forwom__title{
+        font-size: 20px;
+        padding-bottom: 100px ;
+        font-weight: bold;
+        color: #fbfbfa;
+    }
+
+    .forwhom__inform{
+        color: #fbfbfa;
+        font-size: 18px;
+        padding: 10px 0 10px 0;
+    }
+
+    .forwhom__button{
+        padding-top: 100px;
+    }
+
+    .forwhom__buttonClick{
+        background-color: #fbfbfa;
+        width: 250px;
+        border-radius: 20px;
+        font-size: 20px;
+        color: #876dde;
+        padding: 10px;
+    }
+
+
+    .footer{
+        color: #a89947;
+        background-color: #534a1b;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    .scroll{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40px;
+        right: 100px;
+        top: 100px;
+        z-index: 3;
+
+    }
+
+    .scroll__line{
+        width: 1px;
+        height: 170px;
+        margin: 15px;
+        background: #0300ff;
+       
+    }
+
+
+    #scroll__item{
+        position: relative;
+        width: 10px;
+        height: 75px;
+        
+    }
+
+    .scroll__touch{
+            position: absolute;
+        width: 10px;
+        height: 20px;
+        z-index: 30;
+    }
+
+
+
+    .scroll__circus{
+        position: absolute;
+        width: 10px;
+        height: 20px;
+
+    }
+
+
+
+
+    .scroll__circusSmoll{
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+       background:#0300ff;
+       margin:  0 3px 0 3px;
+    }
+
+    .scroll__circusMain{
+        margin: 0px;
+         width:10px;
+          height:10px;
+           border-radius: 50%;
+             border: 1px solid #0300ff; 
+             background: none;
+    }
+
+   
+    .p{
+        position: absolute;
+    }
